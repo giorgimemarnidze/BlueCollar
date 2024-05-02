@@ -136,6 +136,7 @@ a {
     padding: 10px;
     font-weight: 500;
     max-width: fit-content;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 5px) and (max-width: 767px) {
@@ -165,8 +166,10 @@ a {
 
 .article-text-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    width: 963px;
+    max-width: 963px;
+    width: 100%;
     margin: 0 auto;
     justify-content: center;
     height: 850px;
@@ -200,6 +203,32 @@ h1 {
     font-size: 50px;
     font-weight: 500;
     margin-top: 10px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .main-background-image {
+        background-position: right top ;
+    }
+
+    h1 {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 400px;
+        width: 100%;
+        
+    }
+
+    .article-text-container {
+       padding-left: 100px;
+    }
+} 
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .article-text-container {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 /*main__second-section*/
