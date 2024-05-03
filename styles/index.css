@@ -1221,7 +1221,6 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    max-width: 750px;
     width: 100%;
     padding-top: 100px;
     text-align: center;
@@ -1313,6 +1312,7 @@ h1 {
 .three-white-card {
     display: flex;
     max-width: 950px;
+    width: 100%;
     gap: 30px;
     margin: 0 auto;
     align-items: center;
@@ -1536,14 +1536,15 @@ h1 {
 .yellow-second-background-section {
     background-color: #FFB342;
     height: 300px;
-
 }
 
 .subscribe-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 120px;
     max-width: 950px;
+    width: 100%;
     margin: 0 auto;
     height: 250px;
 }
@@ -1559,12 +1560,22 @@ h1 {
 
 .subscribe-container-junior {
     display: flex;
+    padding-top: 10px;
     flex-direction: column;
     gap: 10px;
 }
 
 .subscribe-container-junior h2 {
     font-size: 33px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 951px) {
+    .subscribe-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
 }
 
 
@@ -1621,10 +1632,6 @@ h1 {
 .footer-body-container p {
     color: white;
 }
-
-
-
-
 
 .footer-soc-image {
     width: 50px;
@@ -1718,14 +1725,32 @@ h1 {
 }
 
 
-
-
-
-
-
 .footer-body-container {
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
     border-bottom: 1px solid rgba(255, 255, 255, 0.342);
+}
+
+@media screen and (max-width: 980px) {
+    .footer-body-container {
+        display: none;
+    }
+
+    .footer-header-three-ident-logo-container {
+        display: none;
+    }
+
+    .scm {
+        overflow: visible;
+    }
+
+    .cc {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .footer-foot-container {
+        display: none;
+    }
 }
