@@ -22,6 +22,10 @@ a {
     font-weight: 500;
 }
 
+button {
+    cursor: pointer;
+}
+
 
 
 /*header*/
@@ -1136,11 +1140,11 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    height: 800px;
     align-items: center;
     margin: 0 auto;
     max-width: 950px;
     width: 100%;
+    padding-top: 100px;
 }
 
 .nancy-wrap {
@@ -1156,6 +1160,7 @@ h1 {
     width: 950px;
     margin: 0 auto;
     align-items: center;
+    padding: 50px 0;
 }
 
 .trusted-company-section h3 {
@@ -1188,7 +1193,7 @@ h1 {
 
 @media screen and (min-width: 350px) and (max-width: 1023px) {
     .wrapper-nancy-and-inputs {
-        margin-bottom: 500px;
+        margin-bottom: 200px;
         display: flex;
         justify-content: center;
     }
@@ -1398,8 +1403,8 @@ h1 {
 .twoman-tools-whole-container {
     display: flex;
     flex-direction: column;
-    height: 900px;
     justify-content: center;
+    padding:  50px 0 ;
 }
 
 .latestnews-container h2 {
@@ -1473,8 +1478,32 @@ h1 {
     max-width: 950px;
     margin: 0 auto;
     padding-top: 30px;
-
     gap: 20px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 454px) {
+    .blogandarticles {
+        margin-top: 300px;
+    }
+
+    .two-man-tools-center {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 455px) and (max-width: 920px) {
+    .two-man-tools-center {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blogandarticles {
+        margin-top: 30px;
+    }
+
+    .sd {
+        margin-bottom: 40px;
+    }
 }
 
 /*main__nineth--section*/
@@ -1517,8 +1546,6 @@ h1 {
     max-width: 950px;
     margin: 0 auto;
     height: 250px;
-
-
 }
 
 .subscribe-container p {
