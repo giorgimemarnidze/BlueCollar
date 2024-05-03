@@ -1134,11 +1134,13 @@ h1 {
 
 .wrapper-nancy-and-inputs {
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     height: 800px;
     align-items: center;
     margin: 0 auto;
-    width: 950px;
+    max-width: 950px;
+    width: 100%;
 }
 
 .nancy-wrap {
@@ -1183,6 +1185,22 @@ h1 {
     padding-bottom: 50px;
 
 }
+
+@media screen and (min-width: 350px) and (max-width: 1023px) {
+    .wrapper-nancy-and-inputs {
+        margin-bottom: 500px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .trusted-company-section {
+        display: none;
+    }
+}
+
+
 
 /*main__seventh--section*/
 
