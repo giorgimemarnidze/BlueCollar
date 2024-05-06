@@ -91,7 +91,7 @@ button {
     width: 100%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 868px) and (max-width: 1023px) {
     .header-second-section {
         margin: 0 auto;
     }
@@ -109,7 +109,7 @@ button {
     position: relative;
     bottom: 30px;
     margin: 0 auto;
-    max-width: 950px;
+    max-width: 1050px;
     width: 100%;
 }
 
@@ -120,15 +120,13 @@ button {
 
 .nav-components {
     display: flex;
-    max-width: 780px;
-    width: 100%;
     gap: 35px;
 }
 
 .navbar-container {
     display: flex;
-    gap: 230px;
-    max-width: 950px;
+    gap: 200px;
+    max-width: 1200px;
     width: 100%;
     padding: 20px 25px;
     align-items: center;
@@ -147,7 +145,7 @@ button {
     cursor: pointer;
 }
 
-@media screen and (min-width: 5px) and (max-width: 767px) {
+@media screen and (min-width: 5px) and (max-width: 800px) {
     .navbar-container {
         gap: 50px;
     }
@@ -676,13 +674,23 @@ h1 {
     }
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 845px) {
     .downer-three-blue-card {
         display: none;
     }
 }
 
-@media screen and (min-width: 866px) {
+@media screen and (max-width: 950px) {
+    .upper-three-blue-card {
+        gap: 7px;
+    }
+
+    .downer-three-blue-card {
+        gap: 7px;
+    }
+}
+
+@media screen and (min-width: 846px) {
     .upper-three-blue-card {
         display: flex;
         flex-wrap: nowrap;
@@ -1515,7 +1523,7 @@ h1 {
     }
 }
 
-@media screen and (min-width: 455px) and (max-width: 920px) {
+@media screen and (min-width: 155px) and (max-width: 1050px) {
     .two-man-tools-center {
         flex-wrap: wrap;
         justify-content: center;
