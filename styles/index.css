@@ -1502,7 +1502,6 @@ h1 {
     width: 100%;
     margin: 0 auto;
     padding-top: 30px;
-    gap: 0px;
 }
 
 @media screen and (min-width: 100px) and (max-width: 454px) {
@@ -1512,6 +1511,7 @@ h1 {
 
     .two-man-tools-center {
         flex-wrap: wrap;
+        gap: 0px;
     }
 }
 
@@ -1529,8 +1529,9 @@ h1 {
         margin-bottom: 40px;
     }
 
-    
 }
+
+
 
 /*main__nineth--section*/
 
@@ -1759,7 +1760,7 @@ h1 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.342);
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 990px) {
     .footer-body-container {
         display: none;
     }
